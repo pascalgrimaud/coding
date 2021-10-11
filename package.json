@@ -1,0 +1,25 @@
+{
+  "name": "coding",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Coding Project",
+  "license": "UNLICENSED",
+  "scripts": {
+    "prepare": "husky install",
+    "prettier:check": "prettier --check \"{,src/**/}*.{md,json,yml,html,js,ts,tsx,css,scss,vue,java}\"",
+    "prettier:format": "prettier --write \"{,src/**/}*.{md,json,yml,html,js,ts,tsx,css,scss,vue,java}\""
+  },
+  "devDependencies": {
+    "husky": "7.0.2",
+    "lint-staged": "11.0.0",
+    "prettier": "2.3.2",
+    "prettier-plugin-java": "1.4.0",
+    "prettier-plugin-packagejson": "2.2.11"
+  },
+  "engines": {
+    "node": ">=14.17.6"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ]
+}
